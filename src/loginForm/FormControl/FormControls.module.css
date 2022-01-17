@@ -1,0 +1,22 @@
+.formControl input{
+    border: 1px solid #D8D8D8;
+    outline: none;
+    box-sizing: border-box;
+    padding: 3% 3% 3% 9%;
+    height: 8.6%;
+    width: 100%;
+    line-height: 16px;
+    border-radius: 24px;
+    transition: 1s linear;
+
+}
+.formControl.error input{
+    border: 1px solid #E7414C;
+}
+
+.formControl.success input {
+    border:1px solid #69CD63
+}
+.formControl.active input{
+    border:1px solid #3183FF;
+}

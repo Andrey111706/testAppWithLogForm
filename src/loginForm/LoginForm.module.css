@@ -1,0 +1,138 @@
+.mainPage{
+    position: relative;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background-color: #F4F6F8;
+    z-index: 0;
+    overflow: hidden;
+}
+.rectangleInAngle{
+    position: relative;
+    width: 53%;
+    height:100%;
+    background-color: #EEF1F7;
+    transform: rotate(15deg)
+}
+.rectangleInAngleHandler{
+    position: absolute;
+    width: 67.3%;
+    height:142%;
+    left: 785px;
+    top: -13%;
+}
+.formHolder{
+    width: 33%;
+    height: 61.3%;
+    border:1px solid #D8D8D8;
+    border-radius: 62px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    z-index: 2;
+    background-color: white;
+    overflow: hidden;
+}
+.form{
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    width:100%;
+    height: 100%;
+    padding: 9.5% 8.5%;
+}
+h4{
+    margin: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 133%;
+    color:#98989E;
+}
+h2{
+    margin: 0 0 10%;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 133%;
+}
+.inputHolder{
+    position: relative;
+    margin-bottom: 10%;
+}
+.inputHolder label span {
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 133%;
+    color:#212429;
+    margin-bottom: 8px;
+}
+.inputHolder label .iconHolder{
+    display: block;
+    position: absolute;
+    top:57%;
+    left:3%;
+    width: 5%;
+    height: 23%;
+}
+.inputHolder label .iconHolder.iconMail{
+    background: url("/src/assets/Icon/mailIcon.svg") 100% 100% no-repeat;
+}
+.inputHolder label .iconHolder.iconLocker{
+    background: url("/src/assets/Icon/lockerIcon.svg") 100% 100% no-repeat;
+}
+.submitButton{
+    outline: 0;
+    border: 0;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 10%;
+    position: relative;
+    width:100%;
+    height:10%;
+    background-color: #3183FF;
+    color:white;
+    border-radius: 24px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 133%;
+    transition: 1s;
+
+}
+.submitButton:hover span {
+    transition: 1s;
+    display: inline-block;
+    background: linear-gradient(90deg, white 0%, rgba(255,241,114,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 133%;
+}
+.submitButton:active{
+    transition: 0.2s;
+    margin-left:auto;
+    margin-right:auto;
+    width:80%;
+    height:5%;
+
+}
+.onSubmitInfo span {
+    display: inline-block;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 133%;
+    color: #98989E
+}
+.onSubmitInfo span:nth-child(2){
+    color: #212429;
+    margin-left: 10px;
+}
+
+
